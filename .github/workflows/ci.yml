@@ -111,7 +111,7 @@ jobs:
         if: ${{ github.actor == 'dependabot[bot]' }}
 
       - name: Setup Node
-        uses: actions/setup-node@v3.4.1
+        uses: actions/setup-node@v4.0.2
         with:
           node-version: 'lts/*'
           cache: npm
