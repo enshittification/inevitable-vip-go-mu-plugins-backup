@@ -37,7 +37,7 @@
     "postcss-loader": "^7.0.0",
     "sass": "^1.43.5",
     "sass-loader": "^13.0.0",
-    "style-loader": "^3.3.1",
+    "style-loader": "^4.0.0",
     "terser-webpack-plugin": "^5.2.5",
     "url-loader": "^4.1.1",
     "webpack": "^5.64.0",
