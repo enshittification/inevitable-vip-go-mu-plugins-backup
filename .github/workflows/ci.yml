@@ -53,7 +53,7 @@ jobs:
           MYSQL_DATABASE: wordpress_test
     steps:
       - name: Check out source code
-        uses: actions/checkout@v3.0.2
+        uses: actions/checkout@v4.1.4
         with:
           submodules: recursive
 
@@ -80,7 +80,7 @@ jobs:
           - "yes"
     steps:
       - name: Check out source code
-        uses: actions/checkout@v3.0.2
+        uses: actions/checkout@v4.1.4
         with:
           submodules: recursive
 
@@ -101,13 +101,13 @@ jobs:
       pull-requests: write
     steps:
       - name: Check out source code
-        uses: actions/checkout@v3.0.2
+        uses: actions/checkout@v4.1.4
         with:
           token: ${{ secrets.WPCOM_VIP_BOT_TOKEN }}
         if: ${{ github.actor != 'dependabot[bot]' }}
 
       - name: Check out source code (Dependabot is here)
-        uses: actions/checkout@v3.0.2
+        uses: actions/checkout@v4.1.4
         if: ${{ github.actor == 'dependabot[bot]' }}
 
       - name: Setup Node
