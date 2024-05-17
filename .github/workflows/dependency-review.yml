@@ -20,7 +20,7 @@ jobs:
             github.com:443
 
       - name: Check out the source code
-        uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3.0.2
+        uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # tag=v4.1.6
 
       - name: Review dependencies
         uses: actions/dependency-review-action@94145f3150bfabdc97540cbd5f7e926306ea7744 # tag=v2.0.4
