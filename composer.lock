@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dcaab020e76fc5efcd71f905967d5eca",
+    "content-hash": "7c44c6d8e9835a1ae438dd1d70aea753",
     "packages": [],
     "packages-dev": [
         {
@@ -305,24 +305,24 @@
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "6.4.3",
+            "version": "6.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "389a4e72f3e14a995f89fa4bc5a69c7cf75ae2a8"
+                "reference": "702c3bda87abb47ae43f90c7b8868cf0b7dff1e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/389a4e72f3e14a995f89fa4bc5a69c7cf75ae2a8",
-                "reference": "389a4e72f3e14a995f89fa4bc5a69c7cf75ae2a8",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/702c3bda87abb47ae43f90c7b8868cf0b7dff1e2",
+                "reference": "702c3bda87abb47ae43f90c7b8868cf0b7dff1e2",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "php": ">=7.0.0"
+                "php": ">=7.2.24"
             },
             "provide": {
-                "wordpress/core-implementation": "6.4.3"
+                "wordpress/core-implementation": "6.8.1"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -349,7 +349,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2024-01-30T19:31:14+00:00"
+            "time": "2025-04-30T16:52:49+00:00"
         },
         {
             "name": "mustache/mustache",
@@ -3122,5 +3122,5 @@
     "platform-overrides": {
         "php": "8.0"
     },
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }
