@@ -3,7 +3,7 @@
         "phpunit/phpunit": "9.6.15",
         "automattic/vipwpcs": "3.0.0",
         "phpcompatibility/phpcompatibility-wp": "2.1.4",
-        "erusev/parsedown": "1.7.4",
+        "erusev/parsedown": "1.8.0",
         "dms/phpunit-arraysubset-asserts": "0.5.0",
         "yoast/phpunit-polyfills": "2.0.0",
         "johnpbloch/wordpress-core": "6.4.3",
