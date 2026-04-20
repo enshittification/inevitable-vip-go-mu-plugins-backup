@@ -22,7 +22,7 @@ jobs:
         uses: shivammathur/setup-php@2.30.0
 
       - name: Install
-        uses: ramsey/composer-install@3.0.0
+        uses: ramsey/composer-install@4.0.0
 
       - name: Execute
         env:
