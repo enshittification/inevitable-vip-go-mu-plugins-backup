@@ -12,7 +12,7 @@
   "author": "Automattic",
   "devDependencies": {
     "@automattic/eslint-plugin-wpvip": "^0.9.0",
-    "@babel/plugin-syntax-decorators": "^7.22.10",
+    "@babel/plugin-syntax-decorators": "^8.0.1",
     "@playwright/test": "^1.39.0",
     "@types/node": "^20.11.0",
     "asana-phrase": "^0.0.8",
