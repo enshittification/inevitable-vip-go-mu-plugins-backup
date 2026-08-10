@@ -16,7 +16,7 @@
   "devDependencies": {
     "@automattic/eslint-plugin-wpvip": "^0.9.0",
     "@babel/core": "^7.23.2",
-    "@babel/plugin-transform-class-properties": "^7.22.5",
+    "@babel/plugin-transform-class-properties": "^8.0.1",
     "@babel/plugin-transform-object-assign": "^7.22.5",
     "@babel/plugin-transform-object-rest-spread": "^7.22.15",
     "@babel/plugin-transform-private-property-in-object": "^7.22.11",
