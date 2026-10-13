@@ -22,7 +22,7 @@
   },
   "author": "Automattic",
   "devDependencies": {
-    "@babel/plugin-syntax-decorators": "^7.19.0",
+    "@babel/plugin-syntax-decorators": "^8.0.1",
     "@wordpress/env": "^9.0.0",
     "10up-toolkit": "^6.0.0",
     "classnames": "^2.3.1",
